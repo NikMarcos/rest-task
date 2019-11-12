@@ -15,7 +15,7 @@ const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-let destPath = __dirname + '/public/stylesheetsss';
+let destPath = __dirname + '/public/stylesheets';
 app.use(sassMiddleware({
     src: './src/stylesheets',
     dest: destPath,
