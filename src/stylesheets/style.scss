@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8FAFA;
+  position: relative;
+}
+
+.houses {
+  max-width: 1180px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+  // padding: 50px;
+}
+
+.houses__title {
+  /* height: 50px; */
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #45852D;
+}
+
+.houses__data {
+  width: 100%;
+  padding: 5%;;
+  box-sizing: border-box;
+  display: grid;
+  grid-row-gap: 5%;
+  @media screen and (max-width: 761px){
+    grid-row-gap: 0.001%;
+  }
+}
+
+.wrapper {
+
+  width: 100%;
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  justify-content: center;
+  @media screen and (max-width: 761px){
+    display: block;
+  }
+}
+
+// .wrapper:first-child{
+//   display: grid;
+// }
+
+.showWrapper{
+  display: grid;
+  @media screen and (max-width: 761px){
+    display: block;
+  }
+}
+
+.houses__data_card {
+  width: 100%;
+  align-self: center;
+  background: #F8F8F8;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  @media screen and (max-width: 761px){
+    margin: 10px;
+  }
+}
+
+.card_cover {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+.card_cover_purpose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background: #006F79;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px;
+  font-size: 90%;
+  @media screen and (max-width: 761px){
+    width: 50%;
+  }
+}
+
+.orange{
+  background: #EC6608;
+  // width: 250px;
+}
+
+.card-info{
+  padding: 30px;
+}
+
+.card-info__name {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 20px;
+  line-height: 27px;
+  color: #363636;
+}
+
+.address_price{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363636;
+}
+
+.card-info__ownership{
+  font-size: 14px;
+}
+
+
+.houses__moreBtn{
+  margin-bottom: 50px;
+  button{
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #D8D8D8;
+    border-radius: 25px;
+    background: white;
+    outline:none;
+    @media screen and (max-width: 761px){
+      display: none;
+    }
+  }
+
+}
