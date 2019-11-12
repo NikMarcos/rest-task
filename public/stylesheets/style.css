@@ -75,8 +75,8 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 2px;
-  font-size: 85%; }
+  padding: 5px;
+  font-size: 80%; }
   @media screen and (max-width: 761px) {
     .card_cover_purpose {
       width: 50%; } }
