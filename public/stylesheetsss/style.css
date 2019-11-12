@@ -11,10 +11,10 @@ body {
   align-items: center;
   background: #FFFFFF;
   font-family: "Open Sans", sans-serif;
-  margin: auto; }
+  margin: auto;
+  padding: 20px; }
 
 .houses__title {
-  /* height: 50px; */
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -29,7 +29,7 @@ body {
   grid-row-gap: 5%; }
   @media screen and (max-width: 761px) {
     .houses__data {
-      grid-row-gap: 0.001%; } }
+      grid-row-gap: 0.1%; } }
 
 .wrapper {
   width: 100%;
@@ -76,7 +76,7 @@ img {
   bottom: 0;
   right: 0;
   padding: 2px;
-  font-size: 90%; }
+  font-size: 85%; }
   @media screen and (max-width: 761px) {
     .card_cover_purpose {
       width: 50%; } }
@@ -85,11 +85,11 @@ img {
   background: #EC6608; }
 
 .card-info {
-  padding: 30px; }
+  padding: 20px; }
 
 .card-info__name {
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 900;
   font-size: 20px;
   line-height: 27px;
   color: #363636; }
